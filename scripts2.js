@@ -1,6 +1,3 @@
-/**
- * Created by session2 on 10/21/15.
- */
 var img1 = document.getElementById("img1");
 var img2 = document.getElementById("img2");
 var img3 = document.getElementById("img3");
@@ -22,7 +19,7 @@ img2.addEventListener("mousedown", function(e){
 }, false);
 
 img3.addEventListener("mousedown", function(e){
-   if (img3.src=="http://media-titanium.cursecdn.com/loldiffs/AirClientDiff_10_13_2014_2_33_PM/media/Ahri_Splash_0.jpg") img3.src="http://images6.fanpop.com/image/photos/36100000/League-of-legends-image-league-of-legends-36140926-1920-1080.jpg";
+    if (img3.src=="http://media-titanium.cursecdn.com/loldiffs/AirClientDiff_10_13_2014_2_33_PM/media/Ahri_Splash_0.jpg") img3.src="http://images6.fanpop.com/image/photos/36100000/League-of-legends-image-league-of-legends-36140926-1920-1080.jpg";
     else img3.src="http://media-titanium.cursecdn.com/loldiffs/AirClientDiff_10_13_2014_2_33_PM/media/Ahri_Splash_0.jpg";
 }, false);
 
